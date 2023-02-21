@@ -1,0 +1,31 @@
+@import url('reset.css');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+select {
+    padding: 7px;
+    border: 1px solid #020929;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="color"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    width: 40px;
+    height: 28px;
+    border: none;
+    cursor: pointer;
+}
+
+#text-input {
+    border-radius: 20px;
+    margin-top: 10px;
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
+    height: 60vh;
+}
